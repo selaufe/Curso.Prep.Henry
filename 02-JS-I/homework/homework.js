@@ -35,7 +35,7 @@ function suma(x, y) {
   // "x" e "y" son tectnúmeros
   // Suma "x" e "y" juntosnpm test JSI.test.js y devuelve el valor
   // Tu código:
-  return 3 + 4;
+  return x + y;
 }
 
 function resta(x, y) {

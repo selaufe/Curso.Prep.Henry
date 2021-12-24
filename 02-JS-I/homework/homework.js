@@ -118,7 +118,7 @@ function esPar(num) {
 }
 
 function esImpar(num) {
-  // Devuelve "true" si "num" es impar13f2uodnAAaFlDXnJQMe3o4utxrA4
+  // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1) {
@@ -174,10 +174,10 @@ function esPositivo(numero) {
     return false;
   }
   else if (numero > 0) {
-    return "es positivo";
+    return "Es positivo";
   }
   else {
-    return "es negativo"
+    return "Es negativo"
   }
   }
 
@@ -186,7 +186,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
   return str + "!";
-
+}
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
@@ -219,7 +219,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base * altura)/2;
+  return (base * altura)/2
 }
 
 
@@ -227,7 +227,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return euro * 1.2
 }
 
 
@@ -237,7 +237,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if(letra.length > 1) {
+    return "dato incorrecto";
+  }
+  if( letra == "a", letra == "i", letra == "i", letra == "o", letra == "u") {
+    return "Es vocal"
+  } else {
+    return "Dato incorrecto"
+  }
 }
 
 

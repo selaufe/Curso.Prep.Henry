@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 == str2) {
+  if (str1.length == str2.length) {
     return true;
   } else {
     return false;
@@ -205,7 +205,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return alto + ancho;
+  return alto * ancho;
   }
 
 
@@ -240,7 +240,7 @@ function esVocal(letra){
   if(letra.length > 1) {
     return "Dato incorrecto";
   }
-  if( letra === "a" || letra === "i" || letra === "i" || letra === "o" || letra === "u") {
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
     return "Es vocal";
   } else {
     return "Dato incorrecto";

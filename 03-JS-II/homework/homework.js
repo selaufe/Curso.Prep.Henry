@@ -118,7 +118,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if((numero % 15) === 0) return "fizzbuz";
-  if((numero % 5) === o) return "buzz";
+  if((numero % 5) === 0) return "buzz";
   if((numero % 3) === 0) return "fizz";
   return numero;
 }

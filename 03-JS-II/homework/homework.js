@@ -156,7 +156,7 @@ function operadoresLogicos(num1, num2, num3) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero < 2) return "falso";
   if(numero === 2) return "true";
-  for(var i = 2; i < numero; i++) {
+  for(var i = 2 ; i < numero ; i++) {
     if(numero % i === 0) {
       return "falso";
     }

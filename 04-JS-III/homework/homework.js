@@ -61,7 +61,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  console.log(palabras.joiin(' '));
+  console.log(palabras.join(' '));
 }
 
 
@@ -72,12 +72,8 @@ function arrayContiene(array, elemento) {
   for(var i = 0; i < array.length; i++) {
     if (array[i] === elemento) {
       return true;
-    }
-    else {
-      return false;
-    }
-
-    }
+    }  
+    return false;
   }
 
 
@@ -86,6 +82,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+ var NuevoNumeros = 0;
+ for(var i = 0; i < numeros.length; i++) {
+   numeros[i] + numeros[i + 1] === NuevoNumeros;
+ }
+ return NuevoNumeros
 }
 
 
